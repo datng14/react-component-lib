@@ -1,0 +1,6 @@
+@use "../../styles/variables" as v;
+.#{v.$prefix} {
+  &btn-wrapper {
+    display: inline-block;
+  }
+}
