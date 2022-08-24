@@ -2,6 +2,7 @@ import combineClassNames from "@/utilities/classNames"
 import { classPrefix } from "@/utilities/global"
 import { Input } from "antd"
 import { ReactNode } from "react"
+import "./InputField.scss"
 
 interface InputFieldProps {
   addonAfter?: ReactNode

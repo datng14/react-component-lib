@@ -1,0 +1,6 @@
+@use "../../styles/variables" as v;
+.#{v.$prefix} {
+  &select-field-wrapper {
+    display: inline-block;
+  }
+}

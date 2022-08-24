@@ -3,6 +3,7 @@ import ButtonClick from "./Components/ButtonClick/ButtonClick"
 import Icon from "./Components/Icon/Icon"
 import InputField from "./Components/InputField/InputField"
 import InputSearchField from "./Components/InputSearchField/InputSearchField"
+import SelectField from "./Components/SelectField/SelectField"
 
 function App() {
   const [showPassword, setShowPassword] = useState(false)
@@ -18,6 +19,7 @@ function App() {
   }
   return (
     <div className="App p-xxl-5">
+      <SelectField />
       <InputField placeholder="search text here" showCount maxLength={100} />
       <InputSearchField
         placeholder="search text here"

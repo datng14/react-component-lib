@@ -1,0 +1,6 @@
+@use "../../styles/variables" as v;
+.#{v.$prefix} {
+  &input-field-wrapper {
+    display: inline-block;
+  }
+}
